@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
+h5 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Bungee Tint", sans-serif;
+}
+
+.content {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    right: 50%;
+    width: 100%;
+    color: red;
+    display: none;
+    
+}
+.content1 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    right: 50%;
+    width: 100%;
+    color: red;
+}
+.content2 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    right: 50%;
+    width: 100%;
+    color: red;
+}
+.content3 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    right: 50%;
+    width: 100%;
+    color: red;
+}
+.content h5{
+    font-size: 35px;
+}
+.content1 h5{
+    font-size: 35px;
+}
+.content2 h5{
+    font-size: 35px;
+}
+.content3 h5{
+    font-size: 35px;
+}
+
+
+
+.demo:hover .content {
+    /* border: 2px solid rgb(0, 0, 0); */
+    /* box-shadow: 0 0 30px black; */
+    top: 30%;
+    display: block;
+
+}
+.demo1:hover .content1 {
+    /* border: 2px solid rgb(0, 0, 0); */
+    /* box-shadow: 0 0 30px black; */
+    top: 90%;
+    display: block;
+    
+
+}
+.demo2:hover .content2 {
+    /* border: 2px solid rgb(0, 0, 0); */
+    /* box-shadow: 0 0 30px black; */
+    top: 155%;
+    display: block;
+    
+
+}
+.demo3:hover .content3 {
+    /* border: 2px solid rgb(0, 0, 0); */
+    /* box-shadow: 0 0 30px black; */
+    top: 213%;
+    display: block;
+    
+
+}
+
+.dropdown-menu {
+    background: transparent;
+    border: none;
+}
+
+.dropdown-menu:hover {
+    background: transparent;
+}
+.f1 img:hover{
+    box-shadow: 0 0 40px black;
+}
+#navone{
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 0 10px white;
+}
+a{
+    text-decoration: none;
+}
+.card-text{
+    color: black;
+}
+.card-body{
+    margin-top: 20px;
+    /* margin-left: 200px; */
+}
+.btn-group{
+       display: flex;
+       position: absolute;
+       /* margin-left: 215px; */
+
+}
+.buto .bbone:hover{
+    background-color:red;
+    color:red;
+}

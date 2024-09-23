@@ -1,0 +1,376 @@
+/* body{
+    overflow-y: hidden;
+} */
+.nav-item-one {
+    margin-left: 300px;
+}
+
+#cimg img {
+    height: 100px;
+}
+
+h1 {
+    position: absolute;
+    margin-top: -580px;
+    color: #fff;
+    text-shadow: 1px 1px black;
+
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 26%; */
+    font-size: 90px;
+    width: 100%;
+    animation: h1 2s ease-in-out;
+}
+
+@keyframes h1 {
+    from {
+        opacity: 1;
+        bottom: 0px;
+    }
+
+    to {
+        opacity: 1;
+        bottom: 500px;
+    }
+}
+
+p {
+    position: absolute;
+    top: -420px;
+    color: #fff;
+    display: flex;
+    /* margin-left: 24%; */
+    width: 100%;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 10px aqua;
+    animation: p 3s ease-in-out;
+
+}
+
+@keyframes p {
+    from {
+        opacity: 0;
+        bottom: 0px;
+    }
+
+    to {
+        opacity: 1;
+        bottom: 400px;
+    }
+}
+
+.bbs1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bone {
+    position: absolute;
+    margin-top: -300px;
+    /* margin-left: 45%; */
+    height: 40px;
+    width: 130px;
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    /* text-shadow: 1px 1px white; */
+    animation: button 3s ease-in-out;
+
+}
+
+@keyframes button {
+    from {
+        opacity: 0;
+        bottom: 0px;
+    }
+
+    to {
+        opacity: 1;
+        bottom: 200px;
+    }
+}
+
+
+.bone:hover {
+    background-color: green;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#htwo {
+    position: absolute;
+    margin-top: -580px;
+    color: yellow;
+    text-shadow: 1px 1px black;
+
+    font-weight: bold;
+    display: flex;
+    margin-left: 26%;
+    font-size: 90px;
+}
+
+#pone {
+    position: absolute;
+    margin-top: -420px;
+    color: white;
+    text-shadow: 1px 1px aqua;
+
+    display: flex;
+    margin-left: 24%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#drone {
+    z-index: 3;
+    background-color: transparent;
+    border: none;
+}
+
+#drone a {
+    color: #fff;
+}
+
+#drone a:hover {
+    color: black;
+}
+
+@media screen and (max-width:320px) {
+    #hone {
+        position: absolute;
+        font-size: 25px;
+        /* margin-left: 50px; */
+        width: 100%;
+        justify-content: center;
+    }
+
+    p {
+        font-size: 15px;
+        width: 100%;
+        justify-content: center;
+        animation: p 3s ease-in-out;
+        /* margin-top: 10px; */
+    }
+
+    .poone {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    @keyframes p {
+        from {
+            opacity: 0;
+            bottom: 0px;
+        }
+
+        to {
+            opacity: 1;
+            bottom: -420px;
+        }
+    }
+
+    /* .bone {
+        position: absolute;
+        margin-left: 30%;
+
+    } */
+
+    #pone {
+        display: none;
+    }
+
+    #htwo {
+        position: absolute;
+        font-size: 30px;
+        margin-left: 50px;
+    }
+
+    .flexone {
+        margin-left: -20px;
+        /* row-gap: 20px; */
+        /* flex-direction: column; */
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+    }
+
+    .ii1 {
+        /* margin-left: -70px; */
+
+    }
+
+    h5 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:375px) {
+    /* .bone {
+        position: absolute;
+        margin-left: 34%;
+    } */
+}
+
+@media screen and (min-width:375px) and (max-width:425px) {
+    /* .bone {
+        position: absolute;
+        margin-left: 34%;
+    } */
+}
+
+@media screen and (min-width:321px) and (max-width:768px) {
+    #hone {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+
+    }
+
+    h1 {
+        margin-left: 0%;
+    }
+
+    p {
+        font-size: 20px;
+        width: 100%;
+        justify-content: center;
+        animation: p 3s ease-in-out;
+    }
+
+    /* .bone {
+        position: absolute;
+        margin-left: 30%;
+    } */
+
+    #pone {
+        display: none;
+    }
+
+    #htwo {
+        position: absolute;
+        font-size: 30px;
+        margin-left: 50px;
+    }
+
+    .ii1 {
+        /* margin-left: -70px; */
+
+    }
+
+    h5 {
+        font-size: 15px;
+    }
+}
+
+.hoone {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.spanone {
+    border-bottom: 2px solid red;
+    line-height: 2;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.poone {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.flexone {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    position: absolute;
+    top: 150vh;
+    left: 20px;
+    justify-content: space-evenly;
+}
+
+
+
+.flexone img {
+    background-color: black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -25px;
+    left: 100px;
+
+}
+
+.i1 {
+    position: relative;
+    /* top: 10px; */
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    width: 250px;
+    box-shadow: 0px 0px 5px rgb(14, 13, 13);
+}
+
+.i1 h6 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.i1 h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.ii1 {
+    width: 400px;
+
+
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.pp1 {
+    position: fixed;
+}
+
+h6 {
+    color: red;
+    font-size: 20px;
+}
+
+#im1 {
+    margin-top: 400px;
+    display: flex;
+}
+
+#train {
+    position: absolute;
+    color: white;
+    margin-top: -200px;
+    font-size: 29px;
+    margin-left: 6%;
+    justify-content: center;
+}
+#corone{
+    margin-top: 400px;
+}
